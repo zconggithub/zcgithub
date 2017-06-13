@@ -18,8 +18,10 @@ public class DemoController {
 
 	@RequestMapping("/getOneFriend")//返回的是json数据
 	public Friend getOneJsonFriend(){
+				
 	Friend friend=FriendService.selectByPrimaryKey(1);
 	logger.info("####log4j的测试####");
+		logger.info("####第一次测试####");
 		return friend;
 	}
 	
