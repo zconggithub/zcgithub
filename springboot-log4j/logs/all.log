@@ -1,0 +1,208 @@
+2017-06-13 18:51:47,142  INFO SpringbootLog4jApplication:48 - Starting SpringbootLog4jApplication on zhoucong with PID 26272 (G:\EclipseWorkpace\springboot-log4j\target\classes started by dell、 in G:\EclipseWorkpace\springboot-log4j)
+2017-06-13 18:51:47,144  INFO SpringbootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2017-06-13 18:51:47,186  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69ea9700: startup date [Tue Jun 13 18:51:47 CST 2017]; root of context hierarchy
+2017-06-13 18:51:47,390  INFO Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-13 18:51:48,314  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-06-13 18:51:48,410  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1226 ms
+2017-06-13 18:51:48,575  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-13 18:51:48,580  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-13 18:51:48,582  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-13 18:51:48,582  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-13 18:51:48,583  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-13 18:51:49,297  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69ea9700: startup date [Tue Jun 13 18:51:47 CST 2017]; root of context hierarchy
+2017-06-13 18:51:49,351  INFO RequestMappingHandlerMapping:543 - Mapped "{[/getOneFriend]}" onto public com.example.demo.entity.Friend com.example.demo.controller.DemoController.getOneJsonFriend()
+2017-06-13 18:51:49,355  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-13 18:51:49,355  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-13 18:51:49,380  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 18:51:49,381  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 18:51:49,422  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 18:51:49,731  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-13 18:51:49,803  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2017-06-13 18:51:49,807  INFO SpringbootLog4jApplication:57 - Started SpringbootLog4jApplication in 2.866 seconds (JVM running for 3.209)
+2017-06-13 18:52:06,561  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-06-13 18:52:06,577  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2017-06-13 18:52:06,795  INFO DemoController:22 - ####log4j的测试####
+2017-06-13 18:57:03,929  INFO SpringbootLog4jApplication:48 - Starting SpringbootLog4jApplication on zhoucong with PID 20872 (G:\EclipseWorkpace\springboot-log4j\target\classes started by dell、 in G:\EclipseWorkpace\springboot-log4j)
+2017-06-13 18:57:04,076  INFO SpringbootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2017-06-13 18:57:04,129  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79c6bff9: startup date [Tue Jun 13 18:57:04 CST 2017]; root of context hierarchy
+2017-06-13 18:57:04,176  INFO Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-13 18:57:05,192  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-06-13 18:57:05,289  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1162 ms
+2017-06-13 18:57:05,432  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-13 18:57:05,443  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-13 18:57:05,445  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-13 18:57:05,445  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-13 18:57:05,446  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-13 18:57:06,088  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79c6bff9: startup date [Tue Jun 13 18:57:04 CST 2017]; root of context hierarchy
+2017-06-13 18:57:06,157  INFO RequestMappingHandlerMapping:543 - Mapped "{[/getOneFriend]}" onto public com.example.demo.entity.Friend com.example.demo.controller.DemoController.getOneJsonFriend()
+2017-06-13 18:57:06,165  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-13 18:57:06,167  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-13 18:57:06,197  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 18:57:06,199  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 18:57:06,238  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 18:57:06,583  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-13 18:57:06,660  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2017-06-13 18:57:06,669  INFO SpringbootLog4jApplication:57 - Started SpringbootLog4jApplication in 2.938 seconds (JVM running for 3.291)
+2017-06-13 18:58:24,208  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-06-13 18:58:24,223  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2017-06-13 18:58:24,314  INFO DemoController:22 - ####log4j的测试####
+2017-06-13 18:58:25,356  INFO DemoController:22 - ####log4j的测试####
+2017-06-13 19:11:15,308  INFO SpringbootLog4jApplication:48 - Starting SpringbootLog4jApplication on zhoucong with PID 18236 (G:\EclipseWorkpace\springboot-log4j\target\classes started by dell、 in G:\EclipseWorkpace\springboot-log4j)
+2017-06-13 19:11:15,451  INFO SpringbootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2017-06-13 19:11:15,507  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3976d4a4: startup date [Tue Jun 13 19:11:15 CST 2017]; root of context hierarchy
+2017-06-13 19:11:15,555  INFO Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-13 19:11:16,572  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-06-13 19:11:16,667  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1162 ms
+2017-06-13 19:11:16,822  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-13 19:11:16,834  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-13 19:11:16,835  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-13 19:11:16,836  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-13 19:11:16,836  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-13 19:11:17,488  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3976d4a4: startup date [Tue Jun 13 19:11:15 CST 2017]; root of context hierarchy
+2017-06-13 19:11:17,558  INFO RequestMappingHandlerMapping:543 - Mapped "{[/getOneFriend]}" onto public com.example.demo.entity.Friend com.example.demo.controller.DemoController.getOneJsonFriend()
+2017-06-13 19:11:17,566  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-13 19:11:17,568  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-13 19:11:17,598  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:11:17,600  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:11:17,637  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:11:17,941  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-13 19:11:18,016  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2017-06-13 19:11:18,024  INFO SpringbootLog4jApplication:57 - Started SpringbootLog4jApplication in 2.911 seconds (JVM running for 3.258)
+2017-06-13 19:14:42,531  INFO SpringbootLog4jApplication:48 - Starting SpringbootLog4jApplication on zhoucong with PID 19132 (G:\EclipseWorkpace\springboot-log4j\target\classes started by dell、 in G:\EclipseWorkpace\springboot-log4j)
+2017-06-13 19:14:42,697  INFO SpringbootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2017-06-13 19:14:42,759  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3976d4a4: startup date [Tue Jun 13 19:14:42 CST 2017]; root of context hierarchy
+2017-06-13 19:14:42,817  INFO Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-13 19:14:43,869  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-06-13 19:14:43,963  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1206 ms
+2017-06-13 19:14:44,108  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-13 19:14:44,119  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-13 19:14:44,120  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-13 19:14:44,121  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-13 19:14:44,122  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-13 19:14:44,766  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3976d4a4: startup date [Tue Jun 13 19:14:42 CST 2017]; root of context hierarchy
+2017-06-13 19:14:44,834  INFO RequestMappingHandlerMapping:543 - Mapped "{[/getOneFriend]}" onto public com.example.demo.entity.Friend com.example.demo.controller.DemoController.getOneJsonFriend()
+2017-06-13 19:14:44,843  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-13 19:14:44,845  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-13 19:14:44,874  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:14:44,876  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:14:44,914  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:14:45,228  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-13 19:14:45,304  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2017-06-13 19:14:45,313  INFO SpringbootLog4jApplication:57 - Started SpringbootLog4jApplication in 2.98 seconds (JVM running for 3.346)
+2017-06-13 19:15:19,843  INFO SpringbootLog4jApplication:48 - Starting SpringbootLog4jApplication on zhoucong with PID 26040 (G:\EclipseWorkpace\springboot-log4j\target\classes started by dell、 in G:\EclipseWorkpace\springboot-log4j)
+2017-06-13 19:15:19,845  INFO SpringbootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2017-06-13 19:15:19,886  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2655ecab: startup date [Tue Jun 13 19:15:19 CST 2017]; root of context hierarchy
+2017-06-13 19:15:20,092  INFO Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-13 19:15:21,004  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-06-13 19:15:21,097  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1213 ms
+2017-06-13 19:15:21,233  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-13 19:15:21,237  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-13 19:15:21,237  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-13 19:15:21,238  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-13 19:15:21,238  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-13 19:15:21,890  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2655ecab: startup date [Tue Jun 13 19:15:19 CST 2017]; root of context hierarchy
+2017-06-13 19:15:21,945  INFO RequestMappingHandlerMapping:543 - Mapped "{[/getOneFriend]}" onto public com.example.demo.entity.Friend com.example.demo.controller.DemoController.getOneJsonFriend()
+2017-06-13 19:15:21,949  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-13 19:15:21,950  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-13 19:15:21,976  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:15:21,977  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:15:22,018  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:15:22,330  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-13 19:15:22,403  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2017-06-13 19:15:22,407  INFO SpringbootLog4jApplication:57 - Started SpringbootLog4jApplication in 2.771 seconds (JVM running for 3.121)
+2017-06-13 19:15:27,485  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-06-13 19:15:27,501  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2017-06-13 19:15:27,711  INFO DemoController:22 - ####log4j的测试####
+2017-06-13 19:17:00,823  INFO SpringbootLog4jApplication:48 - Starting SpringbootLog4jApplication on zhoucong with PID 14588 (G:\EclipseWorkpace\springboot-log4j\target\classes started by dell、 in G:\EclipseWorkpace\springboot-log4j)
+2017-06-13 19:17:00,824  INFO SpringbootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2017-06-13 19:17:00,864  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@57dd7469: startup date [Tue Jun 13 19:17:00 CST 2017]; root of context hierarchy
+2017-06-13 19:17:01,078  INFO Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-13 19:17:01,983  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-06-13 19:17:02,080  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1218 ms
+2017-06-13 19:17:02,219  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-13 19:17:02,222  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-13 19:17:02,223  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-13 19:17:02,223  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-13 19:17:02,223  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-13 19:17:02,872  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@57dd7469: startup date [Tue Jun 13 19:17:00 CST 2017]; root of context hierarchy
+2017-06-13 19:17:02,935  INFO RequestMappingHandlerMapping:543 - Mapped "{[/getOneFriend]}" onto public com.example.demo.entity.Friend com.example.demo.controller.DemoController.getOneJsonFriend()
+2017-06-13 19:17:02,938  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-13 19:17:02,939  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-13 19:17:02,966  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:17:02,967  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:17:03,004  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:17:03,310  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-13 19:17:03,383  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2017-06-13 19:17:03,387  INFO SpringbootLog4jApplication:57 - Started SpringbootLog4jApplication in 2.764 seconds (JVM running for 3.101)
+2017-06-13 19:17:20,518  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-06-13 19:17:20,532  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2017-06-13 19:17:20,742  INFO DemoController:22 - ####log4j的测试####
+2017-06-13 19:21:18,606  INFO SpringbootLog4jApplication:48 - Starting SpringbootLog4jApplication on zhoucong with PID 26180 (G:\EclipseWorkpace\springboot-log4j\target\classes started by dell、 in G:\EclipseWorkpace\springboot-log4j)
+2017-06-13 19:21:18,753  INFO SpringbootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2017-06-13 19:21:18,807  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@486dc6f3: startup date [Tue Jun 13 19:21:18 CST 2017]; root of context hierarchy
+2017-06-13 19:21:18,854  INFO Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-13 19:21:19,864  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-06-13 19:21:19,959  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1154 ms
+2017-06-13 19:21:20,102  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-13 19:21:20,113  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-13 19:21:20,114  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-13 19:21:20,115  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-13 19:21:20,116  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-13 19:21:20,757  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@486dc6f3: startup date [Tue Jun 13 19:21:18 CST 2017]; root of context hierarchy
+2017-06-13 19:21:20,827  INFO RequestMappingHandlerMapping:543 - Mapped "{[/getOneFriend]}" onto public com.example.demo.entity.Friend com.example.demo.controller.DemoController.getOneJsonFriend()
+2017-06-13 19:21:20,835  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-13 19:21:20,838  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-13 19:21:20,867  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:21:20,870  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:21:20,907  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:21:21,213  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-13 19:21:21,288  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2017-06-13 19:21:21,297  INFO SpringbootLog4jApplication:57 - Started SpringbootLog4jApplication in 2.887 seconds (JVM running for 3.233)
+2017-06-13 19:21:52,520  INFO SpringbootLog4jApplication:48 - Starting SpringbootLog4jApplication on zhoucong with PID 15632 (G:\EclipseWorkpace\springboot-log4j\target\classes started by dell、 in G:\EclipseWorkpace\springboot-log4j)
+2017-06-13 19:21:52,521  INFO SpringbootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2017-06-13 19:21:52,562  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@666f975a: startup date [Tue Jun 13 19:21:52 CST 2017]; root of context hierarchy
+2017-06-13 19:21:52,777  INFO Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-13 19:21:53,663  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-06-13 19:21:53,756  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1196 ms
+2017-06-13 19:21:53,891  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-13 19:21:53,895  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-13 19:21:53,895  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-13 19:21:53,896  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-13 19:21:53,896  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-13 19:21:54,543  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@666f975a: startup date [Tue Jun 13 19:21:52 CST 2017]; root of context hierarchy
+2017-06-13 19:21:54,595  INFO RequestMappingHandlerMapping:543 - Mapped "{[/getOneFriend]}" onto public com.example.demo.entity.Friend com.example.demo.controller.DemoController.getOneJsonFriend()
+2017-06-13 19:21:54,598  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-13 19:21:54,599  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-13 19:21:54,624  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:21:54,625  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:21:54,663  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:21:54,966  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-13 19:21:55,037  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2017-06-13 19:21:55,041  INFO SpringbootLog4jApplication:57 - Started SpringbootLog4jApplication in 2.72 seconds (JVM running for 3.056)
+2017-06-13 19:21:58,468  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-06-13 19:21:58,483  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2017-06-13 19:21:58,699  INFO DemoController:22 - ####log4j的测试####
+2017-06-13 19:34:37,065  INFO SpringbootLog4jApplication:48 - Starting SpringbootLog4jApplication on zhoucong with PID 16392 (G:\EclipseWorkpace\springboot-log4j\target\classes started by dell、 in G:\EclipseWorkpace\springboot-log4j)
+2017-06-13 19:34:37,066  INFO SpringbootLog4jApplication:593 - No active profile set, falling back to default profiles: default
+2017-06-13 19:34:37,108  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4a0b1298: startup date [Tue Jun 13 19:34:37 CST 2017]; root of context hierarchy
+2017-06-13 19:34:37,318  INFO Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-13 19:34:38,241  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-06-13 19:34:38,332  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1226 ms
+2017-06-13 19:34:38,469  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-13 19:34:38,473  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-13 19:34:38,474  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-13 19:34:38,474  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-13 19:34:38,474  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-13 19:34:39,123  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4a0b1298: startup date [Tue Jun 13 19:34:37 CST 2017]; root of context hierarchy
+2017-06-13 19:34:39,196  INFO RequestMappingHandlerMapping:543 - Mapped "{[/getOneFriend]}" onto public com.example.demo.entity.Friend com.example.demo.controller.DemoController.getOneJsonFriend()
+2017-06-13 19:34:39,200  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-13 19:34:39,200  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-13 19:34:39,238  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:34:39,239  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:34:39,288  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 19:34:39,692  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-13 19:34:39,768  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2017-06-13 19:34:39,773  INFO SpringbootLog4jApplication:57 - Started SpringbootLog4jApplication in 2.908 seconds (JVM running for 3.247)
+2017-06-13 19:34:44,945  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-06-13 19:34:44,959  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2017-06-13 19:34:45,176  INFO DemoController:22 - ####log4j的测试####
