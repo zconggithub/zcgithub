@@ -24,6 +24,7 @@ public class DemoController {
 		logger.info("####第一次测试####");
 		logger.info("####我是家用电脑####,master更改");
 		logger.info("####我是家用电脑第二次修改测试并提交####,master更改");
+		logger.info("####我是dev####,在github上第一次更改");
 		return friend;
 	}
 	
