@@ -22,6 +22,7 @@ public class DemoController {
 	Friend friend=FriendService.selectByPrimaryKey(1);
 	logger.info("####log4j的测试####");
 		logger.info("####第一次测试####");
+		logger.info("####我是家用电脑####");
 		return friend;
 	}
 	
