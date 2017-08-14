@@ -21,8 +21,7 @@ public class DemoController {
 				
 	Friend friend=FriendService.selectByPrimaryKey(1);
 	logger.info("####log4j的测试####");
-		logger.info("####第一次测试####");
-		logger.info("####原始master####");
+		logger.info("####我是zcgithub####,我删除了所有的测试信息，除了此条");
 		return friend;
 	}
 	
